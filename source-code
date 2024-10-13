@@ -4,11 +4,10 @@ public class kasir3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Harga awal barang
         double hargaCrocs = 800000, hargaNike = 500000, hargaAdidas = 400000;
         double hargaNewBalance = 2000000, hargaAsics = 1500000, hargaConverse = 1000000;
         double grandTotal = 0, total = 0, bayar, kembalian;
-        double totalPemasukan = 0; // Variabel untuk menyimpan total pemasukan
+        double totalPemasukan = 0; 
         int pilih1, pilih2, pilih3 = 0, jumlah;
 
         do {
